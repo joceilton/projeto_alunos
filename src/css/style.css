@@ -1,0 +1,76 @@
+body {
+	font-size: 16px;
+	overflow: hidden;
+}
+
+/* header */
+
+.nav-topo {
+	background-color: #444;
+	padding: 2px 0;
+}
+
+.nav-topo h1 {
+	font-size: 20px;
+	color: #fff;
+	padding: 5px;
+}
+
+.nav-topo .nav-tabs {
+	font-size: 14px;
+}
+
+.nav-topo .nav-tabs li a {
+	color: #fff;
+}
+
+/* Conteúdo */
+
+.content {
+	background-color: #eee;
+	height: 90vh;
+}
+
+.content h1 {
+	font-size: 2rem;
+	border-bottom: 1px #ddd solid;
+	padding: 5px;
+}
+
+.content .cadastro-foto .img-cadastro {
+	width: 250px;
+	height: 300px;
+	border: 1px #ddd solid;
+}
+
+.content .cadastro-foto .img-cadastro img {
+	max-width: 250px;
+}
+
+.content .cadastro-foto input[type=file] {
+    float: left;
+    display: block;
+}
+.content .cadastro-foto .hide {
+    display: none;
+    float: left;
+}
+
+/* Esconde o input */
+.content .cadastro-foto input[type='file'] {
+  display: none
+}
+
+/* Aparência que terá o seletor de arquivo */
+.content .cadastro-foto label {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #444;
+  cursor: pointer;
+  margin: 10px;
+  padding: 6px 20px
+}
+
+.content textarea {
+	height: 200px;
+}

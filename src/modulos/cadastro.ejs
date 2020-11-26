@@ -1,0 +1,67 @@
+<h1> Novo Aluno </h1>
+
+<form>
+	
+  <div class="form-group row">
+
+  	<div class="col-6">
+  		<label for="nome">Nome</label>
+    	<input type="nome" class="form-control" id="nome" aria-describedby="nomeHelp" placeholder="Nome Completo">
+    	<small id="nomeHelp" class="form-text text-muted">Insira o nome completo.</small>
+  	</div>
+
+  	<div class="col-6">
+  		<label for="email">Email</label>
+    	<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+    	<small id="emailHelp" class="form-text text-muted">Insira um email válido.</small>
+  	</div>
+
+  	<div class="col-4">
+  		<label for="matricula">Matrícula</label>
+    	<input type="text" class="form-control" id="matricula" aria-describedby="matriculaHelp" placeholder="Matrícula">
+    	<small id="matriculaHelp" class="form-text text-muted">Insira o número de matrícula do aluno.</small>
+  	</div>
+
+  	<div class="col-4">
+  		<label for="nascimento">Data de Nascimento</label>
+    	<input type="date" class="form-control" id="nascimento" aria-describedby="nascimentoHelp" placeholder="Data de Nascimento">
+    	<small id="nascimentoHelp" class="form-text text-muted">Data de Nascimento do aluno.</small>
+  	</div>
+
+  	<div class="col-4">
+  		<label for="sexo">Sexo</label>
+    	<select class="form-control" id="sexo" aria-descibedy="sexoHelp" placeholder="Sexo do aluno">
+    		<option value=""> Escolha uma opção </option>
+    		<option value="Masculino"> Masculino </option>
+    		<option value="Feminino">  Feminino </option>
+    	</select>
+    	<small id="nascimentoHelp" class="form-text text-muted">Data de Nascimento do aluno.</small>
+  	</div>
+
+  	<div class="col-4 cadastro-foto">
+
+  		<label for='selecao-arquivo'>Selecione uma foto &#187;</label>
+  		<input id="selecao-arquivo" type=file>
+  		
+  		<div class="img-cadastro">
+  			<img class="img-aluno" />
+  		</div>
+
+  	</div>
+
+  	<div class="col-8">
+
+  		<label for="descricao"> Obs: </label>
+  		<textarea class="form-control w-100" placeholder="Obs:"></textarea>
+
+  		<div class="btn-group p-3 mx-md-n3">
+  			<button class="btn btn-primary btn-salvar"> Salvar </button>
+  			<button class="btn btn-secondary btn-cancelar"> Cancelar </button>
+  		</div>
+  		
+  	</div>
+    
+
+  </div>
+
+</form>
